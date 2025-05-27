@@ -1,0 +1,16 @@
+.header {
+    background:#000;/*背景色*/
+}
+
+.header__inner {
+    margin: 0 auto;/*widthがないと中央にならない？　　横方向中央ではない*/
+    padding: 20px 15px;/*上下に20px◎、左右に15pxになってる？*/
+    max-width: 1230px;
+}
+
+.header__logo {
+    color: #fff;
+    text-decoration: none;/*下線を消す*/
+    font-weight: bold;/*太字にすることによって強調できる*/
+    font-size: 24px;
+}

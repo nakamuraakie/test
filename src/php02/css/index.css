@@ -1,0 +1,46 @@
+.search-form__content {
+    margin: 0 auto;/*コンテンツを水平中央に配置します。上下の余白は0で、左右の余白が自動的に設定されます。*/
+    padding: 60px 15px;/*上下に60px、左右に15pxの余白が追加されます。変わらない？*/
+    max-width: 1230px;
+}
+
+.search-form__content-title {
+    text-align: center;/*見出しを中央にする*/
+
+}
+
+.search-form {
+    display: flex;/*要素を横並びにする*/
+    justify-content: center;
+    
+}
+
+.search-form__item {
+    padding: 0 5x;/*内側の余白面談で確認する*/
+    width: 300px;
+}
+
+.search-form__item-select {
+    padding: 10px;/*反映されない*/
+    width: 100%;
+    height: 40px;/*反映される*/
+    border: 1px solid #ddd;/*セレクトボックスの枠線を1pxの薄い灰色（#ddd）の実線*/
+    border-radius: 3px;/*枠の丸さ*/
+    appearance: none;/*ブラウザによって異なるセレクトボックスのデフォルトスタイルを取り除く*/
+}
+
+.search-form__button {
+    padding: 0 5px;/*よくわからないから見てもらう*/
+    width: 120px;
+}
+
+.search-form__button-submit {
+    padding: 10px;/*上のpaddingとの違いがわからない*/
+    width: 100%;
+    height: 40px;
+    border: none;/*枠線を削除*/
+    border-radius: 3px;/*丸さ*/
+    background: #000;
+    color: #fff;
+    cursor: pointer;/*ボタン上にカーソルを合わせた時に、ポインター（手のひら）カーソルを表示します。*/
+}
